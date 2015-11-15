@@ -27,6 +27,13 @@ The second phase is writing the actual test. In this example, smoke test for Nav
 
 The third phase is to quit the driver using tearDown method, and that is completion of the test.
 
+
+<b>RUNNING THE TEST</b>
+
+The code comes with the pom.xml file containing the information about the project and configuration details used by Maven to build the project. Target is build directory, and tests are in java file under src/test/NavigatorTest.java. POM file contains, in this case, jar files needed for project to run successfully. 
+You can easily import the existing Maven project, and test the application by yourself. 
+
+
 <i>Source: https://university.utest.com/how-to-set-up-your-first-android-automation-project-with-appium/</i>
 
 
