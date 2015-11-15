@@ -11,6 +11,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.junit.*;
 
 import io.appium.java_client.AppiumDriver;
@@ -27,6 +29,7 @@ import org.junit.Test;
 public class NavigatorTest {
 
 	private static AndroidDriver driver;
+	WebDriverWait wait = new WebDriverWait(driver, 40); // time limit for waiting - 40 s
 	
 	@BeforeClass
 	public static void setUp() throws MalformedURLException, InterruptedException{
@@ -42,17 +45,17 @@ public class NavigatorTest {
 		capabilities.setCapability("app", app.getAbsolutePath());
 		capabilities.setCapability("appActivity", "com.atlantbh.navigator.HomeActivity");
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-		Thread.sleep(4000);
-		
+	
 	}
 	
 	@Test
 	public void step1_enterLocation() throws Exception {
-		WebElement textField = driver.findElement(By.id("com.atlantbh.navigator.debug:id/search_input_custom"));
+		WebElement textField = wait.until(ExpectedConditions.elementToBeClickable(By.id("com.atlantbh.navigator.debug:id/search_input_custom")));
 		textField.sendKeys("atlantbh");
 		textField.click();
 		
-		Thread.sleep(4000);
+		
+		Thread.sleep(6000);
 		
 		TouchAction action = new TouchAction(driver);
 		action.longPress(10,166).perform(); 
@@ -61,7 +64,7 @@ public class NavigatorTest {
 	
 	@Test
 	public void step2_placeTitleShowed() throws Exception {
-		WebElement placeTitle = driver.findElement(By.id("com.atlantbh.navigator.debug:id/title"));
+		WebElement placeTitle = wait.until(ExpectedConditions.elementToBeClickable(By.id("com.atlantbh.navigator.debug:id/title")));
 		
 		assertTrue("Place title is not displayed.", placeTitle.isDisplayed());	
 		assertEquals("Place title is not proper.", "ATLANTBH", placeTitle.getText());
@@ -82,9 +85,8 @@ public class NavigatorTest {
 		TouchAction action = new TouchAction(driver);
 		
 		action.longPress(placeImage).perform(); 
-		Thread.sleep(2000);
 		
-		WebElement arrowRight = driver.findElement(By.id("com.atlantbh.navigator.debug:id/arrow_right"));
+		WebElement arrowRight = wait.until(ExpectedConditions.elementToBeClickable(By.id("com.atlantbh.navigator.debug:id/arrow_right")));
 	    assertTrue("Arrow right is not displayed.", arrowRight.isDisplayed());	
 		arrowRight.click();
 		arrowRight.click();
