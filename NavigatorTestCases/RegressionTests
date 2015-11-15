@@ -1,0 +1,433 @@
+1# 
+
+Test Case: Search for GPS location of an address 
+*************************************************
+Description: Navigate to search box.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in keyword 'Trg nezavisnosti' using displayed keyboard.
+Expected Result: Keyword is properly inputed using keyboard.
+
+Description: Select the recommended search 'Trg nezavisnosti' that appeared in drop menu of search box.
+Expected Result: Location of address is showed in new screen.
+
+
+2# 
+
+Test Case: Verify that specific place will be found on searched street
+***********************************************************************
+Description: Navigate to search box.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in keyword 'Trg nezavisnosti' using displayed keyboard.
+Expected Result: Keyword is properly inputed using keyboard.
+
+Description: Search for keyword 'Trg nezavisnosti'.
+Expected Result: At the top of list is reference for showing location for searched address on the map, and below it places whose address field contains searced address 'Trg nezavisnosti'.
+
+Description: Click on place 'Biblioteka grada Sarajeva'.
+Expected Result: The name, address, place description about place 'Biblioteka grada Sarajeva' is displayed.
+
+
+3#
+
+Test Case: Verifying Home button function
+******************************************
+Description: Navigate to search box.
+Expected Result: Keyboard is displayed at the bottom of screen.
+
+Description: Type in keyword 'atlantbh' using displayed keyboard.
+Expected Result: Keyword is properly inputed using keyboard.
+
+Description: Search for keyword 'atlantbh'.
+Expected Result: Matching places are displayed in a list.
+
+Description: Click on the Home button at the bottom of screen.
+Expected Result: Screen showed is the Home screen of application.
+
+
+4# NEGATIVE TEST
+
+Test Case: Verifying Create Place button functionality with entering only required information
+***********************************************************************************************
+Description: Click on the Create Place button at the bottom of screen.
+Expected Result: Navigate to form for creating place.
+
+Description: Navigate to the Name field.
+Expected Result: Keyboard is displayed at the bottom of screen.
+
+Description: Fill in the value 'Internacionalni Univerzitet u Sarajevu' for the Name field.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to the Primary Category field.
+Expected Result: The Primary Category list is opened in new screen.
+
+Description: Select the category Service.
+Expected Result: New screen displayed with options to confirm category selection or to pick a child category from the list below.
+
+Description: Confirm the category Service.
+Expected Result: Return the screen to Create Place form.
+
+Description: Click on the Create Place button.
+Expected Result: Place is not created because the location for it is not set (suggested enhancement).
+
+
+5#
+
+Test Case: Verifying search for newly created place
+****************************************************
+Description: Click on the Create Place button at the bottom of screen.
+Expected Result: Navigate to form for creating place.
+
+Description: Navigate to the Name field.
+Expected Result: Keyboard is displayed at the bottom of screen.
+
+Description: Fill in the value 'Internacionalni Univerzitet u Sarajevu' for the Name field.
+Expected Result: Value is properly inputed using keyboard.
+
+Test Step Description: Navigate to the Address field.
+Expected Result: The Address form is opened in new screen.
+
+Test Step Description: Navigate to the Street field.
+Expected Result: Keyboard is displayed at the bottom of screen.
+
+Test Step Description: Fill in the value 'Hrasnička cesta' for the Street field.
+Expected Result: Value is properly inputed using keyboard.
+
+Test Step Description: Click on the Save Address button.
+Expected Result: Address is saved and screen is returned to Create Place form.
+
+Description: Navigate to the Primary Category field.
+Expected Result: The Primary Category list is opened in new screen.
+
+Description: Select the category Service.
+Expected Result: New screen displayed with options to confirm category selection or to pick a child category from the list below.
+
+Description: Confirm the category Service.
+Expected Result: Return the screen to Create Place form.
+
+Description: Click on the Create Place button.
+Expected Result: The place is created.
+
+Description: Click on the search button.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in keyword 'Internacionalni Univerzitet u Sarajevu' using displayed keyboard.
+Expected Result: Keyword is properly inputed using keyboard.
+
+Description: Search for keyword 'Internacionalni Univerzitet u Sarajevu'.
+Expected Result: Matching place is displayed in a list.
+
+Description: Click on the place 'Internacionalni Univerzitet u Sarajevu'.
+Expected Result: The name and address about place 'Internacionalni Univerzitet u Sarajevu' is displayed.
+
+
+6#
+
+Test Case: Verifying Marker button within the Map function
+Assumption: GPS location service is turned on
+***********************************************************
+Description: Navigate to Home screen.
+Expected Result: Home screen is showed.
+
+Description: Click on the Map button in the upper right corner.
+Expected Result: The map of the city Sarajevo is showed.
+
+Description: Click on the button in upper right corner (assuming it shows current location marker).
+Expected Result: The current location of user is marked.
+
+
+7#
+
+Test Case: Searching for a 'Zemaljski Muzej' within belonging category
+**********************************************************
+Description: Click on the Art & Entertainment category in the menu since in its category description there is museum subcategory.
+Expected Result: Locations included in that category are listed in new screen.
+
+Description: Scroll down the list to search for 'Zemaljski Muzej' location.
+Expected Result: Location is listed in its belonging category.
+
+Description: Click on the location 'Zemaljski Muzej BiH'.
+Expected Result: The information about location is displayed.
+
+
+8#
+
+Test Case: Searching street '12. mart' location over Streets category
+***********************************************************
+Description: Click on the Streets category in the list menu.
+Expected Result: Names of all streets are displayed in new list.
+
+Description: Select '12. mart' street from the list.
+Expected Result: Location of street '12. mart' is marked on the map.
+
+
+9# NEGATIVE TEST
+
+Test Case: Verifying Create Place button functionality without entering any information
+****************************************************************************************
+Description: Click on the Create Place button at the bottom of screen.
+Expected Result: Navigate to form for creating place.
+
+Description: Click on the Create Place button.
+Expected Result: Place is not created because Name and Primary Category required fields are empty.
+
+
+10# NEGATIVE TEST
+
+Test Case: Verifying Create Place button functionality with entering only Name required information
+****************************************************************************************************
+Description: Click on the Create Place button at the bottom of screen.
+Expected Result: Navigate to form for creating place.
+
+Description: Navigate to the Name field.
+Expected Result: Keyboard is displayed at the bottom of screen.
+
+Description: Fill in the value 'IUS' for the Name field.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Click on the Create Place button.
+Expected Result: Place is not created because Primary Category required field is empty.
+
+
+11# NEGATIVE TEST
+
+Test Case: Verifying Create Place button functionality with entering only Primary Category required information
+*****************************************************************************************
+Description: Click on the Create Place button at the bottom of screen.
+Expected Result: Navigate to form for creating place.
+
+Description: Navigate to the Primary Category field.
+Expected Result: The Primary Category list is opened in new screen.
+
+Description: Select the category Business.
+Expected Result: New screen displayed with options to confirm category selection or to pick a child category from the list below.
+
+Description: Pick a child category Accounting.
+Expected Result: Return the screen to Create Place form.
+
+Description: Click on the Create Place button.
+Expected Result: Place is not created because Name required field is empty.
+
+
+12# NEGATIVE TEST
+
+Test Case: Saving the zip code of address while using Create Place functionality
+*********************************************************************************
+Description: Click on the Create Place button at the bottom of screen.
+Expected Result: Navigate to form for creating place.
+
+Description: Navigate to the Address field.
+Expected Result: The Address form is opened in new screen.
+
+Description: Navigate to Zip field and type in 'a' character.
+Expected Result: Character 'a' can not be inputed in Zip field because only numerical symbols are accepted.
+
+
+13# NEGATIVE TEST
+
+Test Case: Saving the house number of address while using Create Place functionality
+**********************************************************
+Description: Click on the Create Place button at the bottom of screen.
+Expected Result: Navigate to form for creating place.
+
+Description: Navigate to the Address field.
+Expected Result: The Address form is opened in new screen.
+
+Description: Enable entering value in House Number field without entering any value in Street field.
+Expected Result: House Number field remains disabled for entering value.
+
+
+14# NEGATIVE TEST
+
+Test Case: Verifying search box with invalid input composed of one symbolic character
+**************************************************************************************
+Description: Navigate to search box.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in '.' character using displayed keyboard.
+Expected Result: Character is properly inputed using keyboard.
+
+Description: Search for '.'.
+Expected Result: No matches found for searched value.
+
+
+15# NEGATIVE TEST
+
+Test Case: Verifying search box with invalid string input
+**********************************************************
+Description: Navigate to search box.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in '..f!,,' string using displayed keyboard.
+Expected Result: Character is properly inputed using keyboard.
+
+Description: Search for '..f!,,'.
+Expected Result: No matches found for searched value.
+
+
+16# NEGATIVE TEST
+
+Test Case: Verifying search box in case of no input
+*****************************************************
+Description: Navigate to search box.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Perform search without typing in any value.
+Expected Result: The screen is navigated back to default Home screen.
+
+
+17# NEGATIVE TEST
+
+Test Case: Booking a ticket without entering user's information
+****************************************************
+Description: Click on 'Sarajevo Theatres' section on Home screen.
+Expected Result: Events and places are displayed in a list on new screen.
+
+Description: Select show 'Sluzavka gospodarica'.
+Expected Result: The name, date and time, location, and description of show are displayed.
+
+Description: Click on 'Book a ticket' button.
+Expected Result: Form for entering user information is displayed.
+
+Description: Click on 'Book a ticket' button under the displayed form.
+Expected Result: Booking is not completed because no valid information is entered.
+
+
+18# NEGATIVE TEST
+
+Test Case: Booking a ticket without entering user's name 
+****************************************************
+Description: Click on 'Sarajevo Theatres' section on Home screen.
+Expected Result: Events and places are displayed in a list on new screen.
+
+Description: Select show 'Dama sa kamelijama'.
+Expected Result: The name, date and time, location, and description of show are displayed.
+
+Description: Click on 'Book a ticket' button.
+Expected Result: Form for entering user information is displayed.
+
+Description: Navigate to Lastname field and input 'Music'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Email field and input 'az@yahoo.com'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Phone field and input '061999999'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Click on 'Book a ticket' button under the displayed form.
+Expected Result: Booking is not completed because valid name is not entered.
+
+
+19# NEGATIVE TEST
+
+Test Case: Booking 1000 tickets with entering required information
+****************************************************
+Description: Click on 'Sarajevo Theatres' section on Home screen.
+Expected Result: Events and places are displayed in a list on new screen.
+
+Description: Select show 'Prst'.
+Expected Result: The name, date and time, location, and description of show are displayed.
+
+Description: Click on 'Book a ticket' button.
+Expected Result: Form for entering user information is displayed.
+
+Description: Navigate to Name field and input 'test'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Lastname field and input 'test'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Email field and input 'da@test.com'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Phone field and input '0603334441'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Number of tickets field and input '1000'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Click on 'Book a ticket' button under the displayed form.
+Expected Result: Booking is not completed because number of tickets exceeds maximum.
+
+
+20# NEGATIVE TEST
+
+Test Case: Booking 0 tickets with entering required information
+****************************************************
+Description: Click on 'Sarajevo Theatres' section on Home screen.
+Expected Result: Events and places are displayed in a list on new screen.
+
+Description: Select show 'Prst'.
+Expected Result: The name, date and time, location, and description of show are displayed.
+
+Description: Click on 'Book a ticket' button.
+Expected Result: Form for entering user information is displayed.
+
+Description: Navigate to Name field and input 'test'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Lastname field and input 'test'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Email field and input 'da@test.com'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Phone field and input '0603334441'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Number of tickets field and input '0'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Click on 'Book a ticket' button under the displayed form.
+Expected Result: Booking is not completed because number of tickets cannot be less than 0.
+
+
+21#
+
+Test Case: Booking 50 tickets with entering required information
+****************************************************
+Description: Click on 'Sarajevo Theatres' section on Home screen.
+Expected Result: Events and places are displayed in a list on new screen.
+
+Description: Select show 'Prst'.
+Expected Result: The name, date and time, location, and description of show are displayed.
+
+Description: Click on 'Book a ticket' button.
+Expected Result: Form for entering user information is displayed.
+
+Description: Navigate to Name field and input 'test'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Lastname field and input 'test'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Email field and input 'da@test.com'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Phone field and input '0603334441'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Navigate to Number of tickets field and input '50'.
+Expected Result: Value is properly inputed using keyboard.
+
+Description: Click on 'Book a ticket' button under the displayed form.
+Expected Result: Booking is completed (information is sent to place staff).
+
+
+22#
+
+Test Case: Changing language of application over Settings
+**************************************************
+Description: Click on Settings button at the bottom of screen.
+Expected Result: New screen with offered settings is displayed.
+
+Description: Click on Language button.
+Expected Result: Two offered languages 'Bosanski' and 'English' selection is displayed.
+
+Description: Select 'Bosanski' offered language.
+Expected Result: Application reloads and all content is in Bosnian language.  
+
+
+

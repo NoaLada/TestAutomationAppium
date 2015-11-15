@@ -1,0 +1,32 @@
+Enhancement Report 4
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Navigator.ba
+Version: 3.0 (r568)
+Component: Booking a ticket fields
+Platform: Samsung Galaxy S4 
+Operating system: Android 5.0.1
+
+Priority:
+Minor
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+Inside of booking a ticket form, when user enters larger number of tickets (i.e. 50), the red square on the right side can show the total price of all tickets planned to be booked.
+
+Steps to reproduce:
+1. Click on 'Sarajevo Theatres' section on Home screen.
+2. Select show 'Prst'.
+3. Click on 'Book a ticket' button.
+4. Navigate to Name field and input 'test'.
+5. Navigate to Lastname field and input 'test'.
+6. Navigate to Email field and input 'da@test.com'.
+7. Navigate to Phone field and input '0603334441'.
+8. Navigate to Number of tickets field and input '50'.
+9. Click on 'Book a ticket' button under the displayed form.
+Result: Booking is completed (information is sent to place staff).

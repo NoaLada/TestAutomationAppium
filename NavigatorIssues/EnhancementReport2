@@ -1,0 +1,28 @@
+Enhancement Report 2
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Navigator.ba
+Version: 3.0 (r568)
+Component: Map button on Home screen
+Platform: Samsung Galaxy S4 
+Operating system: Android 5.0.1
+
+Priority:
+Minor
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+User enters map using Map button that is placed in the upper right corner of Home screen. If user selects Pin marker button, his/her current location on the map will be shown. If user did not turn on locations services before using marker button, the map will not be marked with the pin showing his/her current location. However, some people might not understand this issue and think that the map is not functioning properly, so there should be a warning when user is trying to use map without location services enabled. 
+
+
+Steps to reproduce:
+1. Navigate to Home screen.
+2. Click on the Map button in the upper right corner.
+3. Click on the button in upper right corner corresponding to Pin marker button.
+Result: The current location of user is marked (with assumption that user enabled location services).
+Result: The current location of user is not marked (with assumption that user disabled location services).

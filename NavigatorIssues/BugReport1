@@ -1,0 +1,28 @@
+Bug Report 1
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Navigator.ba
+Version: 3.0 (r568)
+Component: Changing language Category issue
+Platform: Samsung Galaxy S4 
+Operating system: Android 5.0.1
+
+Priority:
+Minor
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+When the user changes default Bosnian language to English, the Category name label on the top of each place's screen remains being in Bosnian. I run the test on 20 different places, in different categories, and the bug was present each time. On the other hand, when the user changes language from English to Bosnia, everything is translated properly.
+
+
+Steps to reproduce:
+1. Click on Postavke button.
+2. Within the language option select English.
+3. Navigate back to Home screen.
+4. Type in "atlantbh" in search field and search for corresponding place.
+Result: On the top of screen with place information, Category name should be in English (Business), but it is in Bosnian (Biznis).

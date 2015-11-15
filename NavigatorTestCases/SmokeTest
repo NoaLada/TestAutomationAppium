@@ -1,0 +1,36 @@
+# SMOKE TEST 
+
+Test Case: Search existing place by its name
+*****************************************
+Description: Navigate to search box.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in keyword 'atlantbh' using displayed keyboard.
+Expected Result: Keyword is properly inputed using keyboard.
+
+Description: Search for keyword 'atlantbh'.
+Expected Result: Matching places are displayed in a list.
+
+Description: Click on the first matching place displayed 'Atlantbh'.
+Expected Result: The new screen with information on 'Atlantbh' is displayed.
+
+Description: Check if the title name is displayed and is proper.
+Expected Result: The title name is displayed and proper.
+
+Description: Check if the place name is displayed and is proper.
+Expected Result: The place name is displayed and proper.
+
+Description: Check if the place image is displayed.
+Expected Result: The place image is displayed.
+
+Description: Click on the place image and swipe between images in gallery. Navigate back to previous screen.
+Expected Result: The image gallery is displayed and swipe is functioning properly. Gallery is exited.
+
+Description: Check if the address container information (address, phone, e-mail) is displayed.
+Expected Result: The address container information is displayed.
+
+Description: Check if the working hours label is displayed.
+Expected Result: The working hours label is displayed.
+
+Description: Check if the place description is displayed.
+Expected Result: The place description is displayed.
