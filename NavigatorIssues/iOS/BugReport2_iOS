@@ -1,0 +1,25 @@
+Bug Report 2
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Navigator.ba
+Version: 2.11
+Component: Settings
+Platform: iPhone 5S
+Operating system: iOS 9.1
+
+Priority:
+Major
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+When user wants to read content of About Navigator and selects that option in Settings screen, the application closes.
+
+Steps to reproduce:
+1. Push Settings button.
+2. Select the About Navigator option.
+Result: The application is closed.

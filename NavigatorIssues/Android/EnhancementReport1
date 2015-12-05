@@ -1,0 +1,30 @@
+Enhancement Report 1
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Navigator.ba
+Version: 3.0 (r568)
+Component: Create Place form
+Platform: Samsung Galaxy S4 
+Operating system: Android 5.0.1
+
+Priority:
+Minor
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+In the Create Place form when creating a new place, it is indicated that user needs to input values in two required fields - Name and Primary Category. However, even though those two fields are filled in, user cannot create place because the location of place is not determined. It is logical that place should not be created without its location, but some users may not understand it in that way since address or location mark are not stated to be required.
+
+Steps to reproduce:
+1. Click on the Create Place button at the bottom of screen.
+2. Navigate to the Name field.
+3. Fill in the value 'Internacionalni Univerzitet u Sarajevu' for the Name field.
+4. Navigate to the Primary Category field.
+5. Select the category Service.
+6. Confirm the category Service.
+7. Click on the Create Place button.
+Result: Place is not created because the location for it is not set.
