@@ -1,0 +1,27 @@
+Enhancement Report 2
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Navigator.ba
+Version: 2.11
+Component: Create Place  
+Platform: iPhone 5S 
+Operating system: iOS 9.1
+
+Priority:
+Minor
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+When the user wants to add zip code within the Create place section, it is enabled to enter symbolic values as well. Place is created even though zip code cannot be accepted. User should be able to enter exclusively numeric values.
+
+Steps to reproduce:
+1. Click on the Create Place button at the bottom of screen.
+2. Navigate to the Address field.
+3. Navigate to Zip field and type in 'a' character.
+4. Return to the Create Place form and fill in Name and select Primary Category.
+Result: The place is created, even though zip code should not be accepted.

@@ -1,0 +1,27 @@
+Bug Report 1
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Navigator.ba
+Version: 2.11
+Component: Create Place form
+Platform: iPhone 5S
+Operating system: iOS 9.1
+
+Priority:
+Minor
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+When user searches for the specific place using search box, and enters the screen wtih place's information, after pushing 'Home' button, it takes the user back to search results. It would be expected that the button returns the user to the home screen.
+
+Steps to reproduce:
+1. Navigate to the search box and type in 'atlantbh'.
+2. Search for the place and select the matching place from the list offered.
+3. Push the 'Home' button.
+Result: The list with search results is shown.
+Expected result: The home screen is shown.
