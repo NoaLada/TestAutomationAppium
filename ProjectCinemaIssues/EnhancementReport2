@@ -1,0 +1,24 @@
+Enhancement Report 2
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: More screen
+Platform: iPhone 5s
+Operating system: iOS 9.2
+
+Priority:
+Minor
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+When the user opens More screen, the graph is displayed, but the user cannot understand what is it about. There is daily comparison of Movies and TV shows, but not written according to what.
+
+Steps to reproduce:
+1. Click on the More button on the bottom of screen.
+Result: The statistics graph is displayed, but it is not provided any other information about it.

@@ -1,0 +1,27 @@
+Bug Report 5
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Search screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+Minor
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+Even though the search function should be available for both movies and TV shows, it can search only for movies. When the user inputs name of the TV show displayed in the Feed screen, there is no 100% matching search results. 
+
+Steps to reproduce:
+1. Click on Search button on the bottom of screen.
+2. Navigate to search box.
+3. Type in keyword ‘The Big Bang Theory’ using displayed keyboard.
+Result: No result is displayed.
+

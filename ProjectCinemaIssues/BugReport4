@@ -1,0 +1,26 @@
+Bug Report 4
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Movie information screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+Minor
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+On the movie information screen, there is a section for reviews. Only the preview of the review is displayed, and when the user clicks on the specific review in order to read it, nothing happens.
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on the ‘Ant-Man’ movie.
+3. Click on the review by owen333 to read it.
+Result: Nothing has changed.

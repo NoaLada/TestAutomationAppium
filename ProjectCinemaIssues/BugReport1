@@ -1,0 +1,25 @@
+Bug Report 1
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Feed screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+Minor
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+On the right side of each category on Feed screen, there is an option for Show All movies/TV shows displayed. However, that function is not implemented. 
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on the Show All button on the right top of the screen.
+Result: Nothing has changed.

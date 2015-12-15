@@ -1,0 +1,26 @@
+Enhancement Report 1
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Search
+Platform: iPhone 5s
+Operating system: iOS 9.2
+
+Priority:
+Minor
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+In the Search screen, the real-time search function should not be based on one matching character, but more of them connected in string. When user inputs something like ‘?4-‘, the results are displayed even though the keyword searched has no sense. Input of multiple symbols should limit the search results.
+
+Steps to reproduce:
+1. Click on the Search button on the bottom of screen.
+2. Navigate to search box.
+3. Type in keyword ‘?4:’ using displayed keyboard.
+Result: Keyword is properly inputed using keyboard, and the list of possible matching items is displayed. The list contains movies that have relation with number 4 (contained in the movie name or the release order of the movie).

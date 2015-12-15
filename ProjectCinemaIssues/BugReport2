@@ -1,0 +1,26 @@
+Bug Report 2
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Movie information screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+Minor
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+On the movie information screen, there is a section for information about movie. When the user clicks on the information icon, nothing changes. However, when the user clicks on the text, the new pop-up window with information about movie is displayed.
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on the ‘Ant-Man’ movie.
+3. Click on the information icon button in information section.
+Result: Nothing has changed.
