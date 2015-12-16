@@ -18,6 +18,7 @@ New
 
 Summary:
 In the Search screen, the real-time search function should not be based on one matching character. When user inputs something like ‘?#(#)$4-$””$‘, the results are displayed even though the keyword searched has no sense. Input of multiple symbols should limit the search results.
+Note: TheMovieDB API was used that has build-in search query that returns results. No specific-created algorithm used.
 
 Steps to reproduce:
 1. Click on the Search button on the bottom of screen.
