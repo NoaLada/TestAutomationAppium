@@ -17,7 +17,7 @@ Status:
 New
 
 Summary:
-When the user wants to add zip code within the Create place section, it is enabled to enter symbolic values as well. Place is created even though zip code cannot be accepted. User should be able to enter exclusively numeric values.
+When the user wants to add zip code within the Create place section, it is enabled to enter symbolic values as well. Place is created even though zip code cannot be accepted. User should be able to enter exclusively numeric values. The pre-assumption is that local area is covered.
 
 Steps to reproduce:
 1. Click on the Create Place button at the bottom of screen.

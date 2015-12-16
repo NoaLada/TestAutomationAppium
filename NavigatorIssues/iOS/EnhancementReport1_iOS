@@ -17,7 +17,7 @@ Status:
 New
 
 Summary:
-When entering booking a ticket form, it is not written which fields are required to be filled in with the value, in order to have successful booking. Some users might not see the need for entering e-mail or phone number, and they would have to repeat whole booking procedure because of missing one field. It would be user-friendly is it is stated which fields are required.
+When entering booking a ticket form, it is not written which fields are required to be filled in with the value, in order to have successful booking in the first attempt. It would be user-friendly is it is stated which fields are required.
 
 Steps to reproduce:
 1. Click on 'Sarajevo Theatres' section on Home screen.

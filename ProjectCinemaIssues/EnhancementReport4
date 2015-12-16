@@ -1,0 +1,24 @@
+Enhancement Report 4
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Movie information screen
+Platform: iPhone 5s
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+User cannot guess based on what is particular movie rated. It would be good if the user will also be able to give his vote for a movie he liked/disliked.
+
+Steps to reproduce:
+1. Click on the ‘Minions’ movie in the Most Popular Movies section.
+Result: On the screen, there is a section with rating, but no other information about it is provided.

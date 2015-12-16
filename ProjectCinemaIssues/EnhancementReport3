@@ -1,0 +1,24 @@
+Enhancement Report 3
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Movie information screen
+Platform: iPhone 5s
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+User can see the reviews driven from the database, but it would be better if he/she can also write his own reviews. User would feel more attached to the application.
+
+Steps to reproduce:
+1. Click on the ‘Ant-Man’ movie on the Feed screen Most Popular Movie category.
+Result: User gets information about the movie, but only he/she can do is put it in favorites. No other interaction is provided.
