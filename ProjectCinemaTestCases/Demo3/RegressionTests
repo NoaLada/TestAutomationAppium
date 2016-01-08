@@ -1,0 +1,435 @@
+1# NEGATIVE TEST
+
+Test Case: Search for the movie or TV show with invalid input
+*************************************************************
+Description: Navigate to search box on the top of screen.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in keyword ‘?-!’ using displayed keyboard.
+Expected Result: Keyword is properly inputed using keyboard, and the list of possible matching items is empty.
+
+
+2# 
+
+Test Case: Search for the movie with semi-valid input
+****************************************************************
+Description: Navigate to search box on the top of screen.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in keyword ‘?4:’ using displayed keyboard.
+Expected Result: Keyword is properly inputed using keyboard, and the list of possible matching items is displayed.
+
+
+3# 
+
+Test Case: Search for the movie within Most Popular Movies category
+*******************************************************************
+Description: Click on the Feed button on the bottom of screen.
+Expected Result: The Feed screen is displayed.
+
+Description: Click on the movie ‘Ant-Man’ listed under Most Popular Movies category.
+Expected Result: The information about the movie ‘Ant-Man’ is displayed in new screen.
+
+Description: Check if the screen title name is displayed and is name of the movie searched.
+Expected Result: The title name is displayed and proper.
+
+Description: Check if the movie name is displayed and is proper.
+Expected Result: The movie name is displayed and proper.
+
+Description: Check if the time length of the movie is displayed.
+Expected Result: The time length of the movie is displayed.
+
+Description: Check if the header image of the movie is displayed.
+Expected Result: The header image of the movie is displayed.
+
+Description: Check if the heart button is displayed and can be manipulated (like and dislike movie).
+Expected Result: The heart button is displayed and it can be manipulated.
+
+Description: Check if the movie poster is displayed.
+Expected Result: The movie poster is displayed.
+
+Description: Check if the movie description is displayed.
+Expected Result: The movie description is displayed.
+
+Description: Check if the rating section is displayed and can be manipulated.
+Expected Result: The rating section is displayed and it can be manipulated.
+
+Description: Click on the Videos section to open Videos screen. Navigate back.
+Expected Result: The Videos screen is displayed and navigation to the previous screen was successful.
+
+Description: Check if the movie cast list is displayed.
+Expected Result: The movie cast list is displayed.
+
+Description: Check if the movie reviews are displayed.
+Expected Result: The movie reviews are displayed.
+
+4# 
+
+Test Case: Search for the movie within Top Rated Movies category
+****************************************************************
+Description: Click on the Feed button on the bottom of screen.
+Expected Result: The Feed screen is displayed.
+
+Description: Click on the movie ‘Interstellar’ listed under Top Rated Movies category.
+Expected Result: The information about the movie ‘Interstellar' is displayed in new screen.
+
+Description: Check if the screen title name is displayed and is name of the movie searched.
+Expected Result: The title name is displayed and proper.
+
+Description: Check if the movie name is displayed and is proper.
+Expected Result: The movie name is displayed and proper.
+
+Description: Check if the time length of the movie is displayed.
+Expected Result: The time length of the movie is displayed.
+
+Description: Check if the header image of the movie is displayed.
+Expected Result: The header image of the movie is displayed.
+
+Description: Check if the heart button is displayed and can be manipulated (like and dislike movie).
+Expected Result: The heart button is displayed and it can be manipulated.
+
+Description: Check if the movie poster is displayed.
+Expected Result: The movie poster is displayed.
+
+Description: Check if the movie description is displayed.
+Expected Result: The movie description is displayed.
+
+Description: Check if the rating section is displayed and can be manipulated.
+Expected Result: The rating section is displayed and it can be manipulated.
+
+Description: Click on the Videos section to open Videos screen. Navigate back.
+Expected Result: The Videos screen is displayed and navigation to the previous screen was successful.
+
+Description: Check if the movie cast list is displayed.
+Expected Result: The movie cast list is displayed.
+
+Description: Check if the movie reviews are displayed.
+Expected Result: The movie reviews are displayed.
+
+
+5# 
+
+Test Case: Search for the movie within Upcoming category
+****************************************************************
+Description: Click on the Feed button on the bottom of screen.
+Expected Result: The Feed screen is displayed.
+
+Description: Click on the movie ‘The 5th Wave’ listed under Upcoming category.
+Expected Result: The information about the movie ‘The 5th Wave’ is displayed in new screen.
+
+Description: Check if the screen title name is displayed and is name of the movie searched.
+Expected Result: The title name is displayed and proper.
+
+Description: Check if the movie name is displayed and is proper.
+Expected Result: The movie name is displayed and proper.
+
+Description: Check if the time length of the movie is displayed.
+Expected Result: The time length of the movie is displayed.
+
+Description: Check if the header image of the movie is displayed.
+Expected Result: The header image of the movie is displayed.
+
+Description: Check if the heart button is displayed and can be manipulated (like and dislike movie).
+Expected Result: The heart button is displayed and it can be manipulated.
+
+Description: Check if the movie poster is displayed.
+Expected Result: The movie poster is displayed.
+
+Description: Check if the movie description is displayed.
+Expected Result: The movie description is displayed.
+
+Description: Check if the rating section is displayed and can be manipulated.
+Expected Result: The rating section is displayed and it can be manipulated.
+
+Description: Click on the Videos section to open Videos screen. Navigate back.
+Expected Result: The Videos screen is displayed and navigation to the previous screen was successful.
+
+Description: Check if the movie cast list is displayed.
+Expected Result: The movie cast list is displayed.
+
+
+6#
+
+Test Case: Search for the TV show within Most Popular TV Shows category
+***********************************************************************
+Description: Click on the Feed button on the bottom of screen.
+Expected Result: The Feed screen is displayed.
+
+Description: Click on the TV show ‘Sherlock’ listed under Most Popular TV shows category.
+Expected Result: The information about the TV show ‘Sherlock’ is displayed in new screen.
+
+Description: Check if the screen title name is displayed and is name of the TV show searched.
+Expected Result: The title name is displayed and proper.
+
+Description: Check if the TV show name is displayed and is proper.
+Expected Result: The TV show name is displayed and proper.
+
+Description: Check if the header image of the TV show is displayed.
+Expected Result: The header image of the TV show is displayed.
+
+Description: Check if the heart button is displayed and can be manipulated (like and dislike TV show).
+Expected Result: The heart button is displayed and it can be manipulated.
+
+Description: Check if the TV show poster is displayed.
+Expected Result: The TV show poster is displayed.
+
+Description: Check if the TV show description is displayed.
+Expected Result: The TV show description is displayed.
+
+Description: Click on the Videos section to open Videos screen. Navigate back.
+Expected Result: The Videos screen is displayed and navigation to the previous screen was successful.
+
+Description: Check if the rating section is displayed and can be manipulated.
+Expected Result: The rating section is displayed and it can be manipulated.
+
+Description: Check if the TV show cast list is displayed.
+Expected Result: The TV show cast list is displayed.
+
+
+7#
+
+Test Case: Search for the TV show within Top Rated TV Shows category
+***********************************************************************
+Description: Click on the Feed button on the bottom of screen.
+Expected Result: The Feed screen is displayed.
+
+Description: Click on the TV show 'Breaking Bad' listed under Most Popular TV shows category.
+Expected Result: The information about the TV show ‘Breaking Bad’ is displayed in new screen.
+
+Description: Check if the screen title name is displayed and is name of the TV show searched.
+Expected Result: The title name is displayed and proper.
+
+Description: Check if the TV show name is displayed and is proper.
+Expected Result: The TV show name is displayed and proper.
+
+Description: Check if the header image of the TV show is displayed.
+Expected Result: The header image of the TV show is displayed.
+
+Description: Check if the heart button is displayed and can be manipulated (like and dislike TV show).
+Expected Result: The heart button is displayed and it can be manipulated.
+
+Description: Check if the TV show poster is displayed.
+Expected Result: The TV show poster is displayed.
+
+Description: Check if the TV show description is displayed.
+Expected Result: The TV show description is displayed.
+
+Description: Click on the Videos section to open Videos screen. Navigate back.
+Expected Result: The Videos screen is displayed and navigation to the previous screen was successful.
+
+Description: Check if the rating section is displayed and can be manipulated.
+Expected Result: The rating section is displayed and it can be manipulated.
+
+Description: Check if the TV show cast list is displayed.
+Expected Result: The TV show cast list is displayed.
+
+
+8#
+
+Test Case: Verify movie list pagination
+***************************************
+Description: Click on the Feed button on the bottom of screen.
+Expected Result: The Feed screen is displayed.
+
+Description: Move to the end of the initial showing list of movies in Most Popular Movies category.
+Expected Result: The list will expand on the right and new movies will be loaded into the list.
+
+
+9#
+
+Test Case: Verify the Favorites list
+Assumption: User liked (pressed on the heart button that turned black) ‘The Martian’ movie.
+***************************************************************************************
+Description: Click on the Favorites button on the bottom of screen.
+Expected Result: The Favorites screen is displayed.
+
+Description: Click on the ‘The Martian’ movie displayed on the top of the list.
+Expected Result: The information about the movie ‘The Martian’ is displayed in new screen.
+
+Description: Check if the screen title name is displayed and is name of the movie searched.
+Expected Result: The title name is displayed and proper.
+
+Description: Check if the movie name is displayed and is proper.
+Expected Result: The movie name is displayed and proper.
+
+Description: Check if the time length of the movie is displayed.
+Expected Result: The time length of the movie is displayed.
+
+Description: Check if the header image of the movie is displayed.
+Expected Result: The header image of the movie is displayed.
+
+Description: Check if the heart button is displayed and can be manipulated (like and dislike movie).
+Expected Result: The heart button is displayed and it can be manipulated.
+
+Description: Check if the movie poster is displayed.
+Expected Result: The movie poster is displayed.
+
+Description: Check if the movie description is displayed.
+Expected Result: The movie description is displayed.
+
+Description: Click on the Videos section to open Videos screen. Navigate back.
+Expected Result: The Videos screen is displayed and navigation to the previous screen was successful.
+
+Description: Check if the movie cast list is displayed.
+Expected Result: The movie cast list is displayed.
+
+Description: Check if the rating section is displayed and can be manipulated.
+Expected Result: The rating section is displayed and it can be manipulated.
+
+Description: Check if the movie reviews are displayed.
+Expected Result: The movie reviews is displayed.
+
+
+10# NEGATIVE TEST
+
+Test Case: Verify the Favorites list
+Assumption: User did not like (did not press on the heart button) ‘Avatar’ movie.
+***********************************************************************************
+Description: Click on the Favorites button on the bottom of screen.
+Expected Result: The Favorites screen is displayed.
+
+Description: Search through the list for ‘Avatar’ movie.
+Expected Result: The movie ‘Avatar’ is not in the Favorites list.
+
+
+11#
+
+Test Case: Expanding movie description section on the movie information screen
+******************************************************************************
+Description: Click on the movie 'The Martian' listed in Most Popular Movies category.
+Expected Result: The movie information screen is displayed.
+
+Description: Click on information button (button with letter 'i' in the circle) in order to expand movie description.
+Expected Result: The full movie description is opened in pop-up window.
+
+
+12#
+
+Test Case: Verify movie rating with TheMovieDB Login
+Assumption: User is logged in with TheMovieDB Login credentails
+***************************************************************
+Description: Click on the movie 'The Martian' listed in Most Popular Movies category.
+Expected Result: The movie information screen is displayed.
+
+Description: Click on the Your Rating section to display the rating screen.
+Expected Result: Rate The Martian screen is displayed.
+
+Description: Scroll to rating of 8 (four stars) and press submit.
+Expected Result: The rating is submitted.
+
+
+13# NEGATIVE TEST
+
+Test Case: Verify movie rating with TheMovieDB Login
+Assumption: User is not logged in with TheMovieDB Login credentails
+*******************************************************************
+Description: Click on the movie 'The Martian' listed in Most Popular Movies category.
+Expected Result: The movie information screen is displayed.
+
+Description: Click on the Your Rating section to display the rating screen.
+Expected Result: Rate The Martian screen is displayed.
+
+Description: Scroll to rating of 8 (four stars) and press submit.
+Expected Result: The rating not submitted and pop-up window is displayed indicating the problem (Not Logged In).
+
+
+14#
+
+Test Case: Expanding particular review in the Reviews section on the movie information screen
+*********************************************************************************************
+Description: Click on the movie 'The Martian' listed in Most Popular Movies category.
+Expected Result: The movie information screen is displayed.
+
+Description: Click on the Frank Ochieng review in the Reviews section to expand it.
+Expected Result: The full review is displayed since the review cell is expanded. 
+
+
+15#
+
+Test Case: Verify User Account Log In
+Assumption: Account is created on the TheMovieDB
+********************************************************
+Description: Click on the More button on the bottom of screen.
+Expected Result: The Account screen is displayed.
+
+Description: Click on the Log In button.
+Expected Result: The Login pop-up window is displayed.
+
+Description: Type in 'azramusic' in username field, and 'decision' in password field, and click on OK.
+Expected Result: User 'azramusic' is listed under user account section as being logged in.
+
+
+16# NEGATIVE TEST
+
+Test Case: Verify User Account Log In 
+Assumption: Account is not created on the TheMovieDB
+********************************************************
+Description: Click on the More button on the bottom of screen.
+Expected Result: The Account screen is displayed.
+
+Description: Click on the Log In button.
+Expected Result: The Login pop-up window is displayed.
+
+Description: Type in 'azramusic' in username field, and 'decisio' in password field, and click on OK.
+Expected Result: User 'azramusic' is not listed under user account section which means the user is not logged in. However, no warning message was provided after failed attempt of logging in.
+
+
+17# NEGATIVE TEST
+
+Test Case: Verify User Account Log In in case of leaving empty fields
+Assumption: Account is not created on the TheMovieDB
+********************************************************
+Description: Click on the More button on the bottom of screen.
+Expected Result: The Account screen is displayed.
+
+Description: Click on the Log In button.
+Expected Result: The Login pop-up window is displayed.
+
+Description: Click on OK button.
+Expected Result: The pop-up window is closed without issuing warning message.
+
+
+18#
+
+Test Case: Verify Crash App
+********************************************************
+Description: Click on the More button on the bottom of screen.
+Expected Result: The Account screen is displayed.
+
+Description: Click on the Crash App button.
+Expected Result: The application is closed.
+
+
+19#
+
+Test Case: Verify Activity Chart tracking 
+Assumption: For current day (i.e. Monday), 3 movies and 1 TV show are recorded as viewed. 
+*****************************************************************************************
+Description: Click on the Feed button on the bottom of screen.
+Expected Result: The Feed screen is displayed.
+
+Description: Click on the TV show ‘Sherlock’ listed under Most Popular TV shows category.
+Expected Result: The information about the TV show ‘Sherlock’ is displayed in new screen.
+
+Description: Click on the More button on the bottom of screen.
+Expected Result: The Account screen is displayed.
+
+Description: Navigate to the Activity Chart section.
+Expected Result: Under the Monday column, 3 movies and 2 TV shows are recorded as viewed
+
+
+20# NEGATIVE TEST
+
+Test Case: Verify Activity Chart tracking 
+Assumption: For current day (i.e. Monday), 3 movies and 1 TV show are recorded as viewed. 
+*****************************************************************************************
+Description: Click on the Feed button on the bottom of screen.
+Expected Result: The Feed screen is displayed.
+
+Description: Click on the More button on the bottom of screen.
+Expected Result: The Account screen is displayed.
+
+Description: Navigate to the Activity Chart section.
+Expected Result: Under the Monday column, 3 movies and 1 TV show are recorded as viewed, since no movie nor TV show is viewed when opening Feed screen.
+
+

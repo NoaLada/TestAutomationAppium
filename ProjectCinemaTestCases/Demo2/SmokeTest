@@ -1,0 +1,47 @@
+# SMOKE TEST 
+
+Test Case: Search existing movie by its name
+********************************************
+Description: Click on the Search button on the bottom of screen.
+Expected Result: Search screen is displayed.
+
+Description: Navigate to search box.
+Expected Result: Keyboard is displayed on the bottom of screen.
+
+Description: Type in keyword ‘Minions’ using displayed keyboard.
+Expected Result: Keyword is properly inputed using keyboard and list of possible matching items is displayed.
+
+Description: Click on the first matching movie displayed ‘Minions’.
+Expected Result: The new screen with information on ‘Minions’ is displayed.
+
+Description: Check if the screen title name is displayed and is name of the movie searched.
+Expected Result: The title name is displayed and proper.
+
+Description: Check if the movie name is displayed and is proper.
+Expected Result: The movie name is displayed and proper.
+
+Description: Check if the time length of the movie is displayed.
+Expected Result: The time length of the movie is displayed.
+
+Description: Check if the header image of the movie is displayed.
+Expected Result: The header image of the movie is displayed.
+
+Description: Check if the heart button is displayed and can be manipulated (like and dislike movie).
+Expected Result: The heart button is displayed and it can be manipulated.
+
+Description: Check if the movie poster is displayed.
+Expected Result: The movie poster is displayed.
+
+Description: Check if the movie description is displayed.
+Expected Result: The movie description is displayed.
+
+Description: Click on the Videos section to open Videos screen. Navigate back.
+Expected Result: The Videos screen is displayed and navigation to the previous screen was successful.
+
+Description: Check if the movie cast list is displayed.
+Expected Result: The movie cast list is displayed.
+
+Description: Check if the movie reviews are displayed.
+Expected Result: The movie reviews is displayed.
+
+
