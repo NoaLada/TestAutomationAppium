@@ -1,0 +1,26 @@
+Enhancement Report 4
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Log in section
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+Medium
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+When user attempts to log in with false username or password, or without providing any information, he/she will not succeed, but no warning message will be displayed. It would be better if there is a message saying the log in failed.
+
+Steps to reproduce:
+1. Click on More button on the bottom of screen.
+2. Click on Log In button.
+3. Leave fields empty and press OK.
+Result: Log In window is closed and user is not logged in.

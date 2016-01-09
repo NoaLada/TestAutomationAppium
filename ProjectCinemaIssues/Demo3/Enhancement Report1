@@ -1,0 +1,26 @@
+Enhancement Report 1
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Reviews section on the movie information screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+If the user wants to expand review in order to read it fully, after click on a particular review there is a large amount of empty lines before the actual review text starts. After the text, there is also amount of empty lines. 
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on The Martian movie in the Top rated movies category.
+3. Scroll down to the reviews section and click on review to expand it.
+Result: Review section is expanded, but there is a large amount of empty lines.

@@ -1,0 +1,26 @@
+Bug Report 2
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Actors list on the movie information screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+On the movie information screen, longer names of particular actors cannot be read. For example, in 'The Martian' movie, name of actress Jessica Chastain is showed as Jessica Ch... since label showes only first 10 characters of the name. However, there is no expansion, so user cannot read the full name.
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on The Martian movie in the Most popular movies category.
+3. Scroll down to the Actors section.
+Result: Some of the actors' names are not fully displayed.

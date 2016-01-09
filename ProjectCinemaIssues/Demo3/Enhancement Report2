@@ -1,0 +1,24 @@
+Enhancement Report 2
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Account screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+Medium
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+Since the name of the screen is Account, it would be suitable that the name of button is Account, not More. The name More does not describe screen well.
+
+Steps to reproduce:
+1. Click on More button on the bottom of screen.
+Result: Account screen is displayed.

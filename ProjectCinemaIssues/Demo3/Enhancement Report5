@@ -1,0 +1,24 @@
+Enhancement Report 5
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Activity Chart section
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+Minor
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+Every bar in activity chart has number on top of it, but there are also numbers on the left side of table with same values and using table cells bars are connected to the numbers on the left. Those background lines and numbers on the left seem unneccessary, since numbers are already clearly identified on the top of bars. One of those two options should be selected.
+
+Steps to reproduce:
+1. Click on More button on the bottom of screen.
+Result: Account screen is displayed with Activity Chart section.

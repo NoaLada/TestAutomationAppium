@@ -1,0 +1,26 @@
+Bug Report 1
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Notification sending
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+When the user puts a released movie in favorites (i.e. The Godfather), the push notification is sent with the message: "The Godfather is about to hit theatres", even though movie is released years ago. This happens will all released movies, and not with Upcoming ones.
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on The Godfather movie in the Top rated movies category.
+3. Press on the Heart button on the movie information screen.
+Result: Push notification received.

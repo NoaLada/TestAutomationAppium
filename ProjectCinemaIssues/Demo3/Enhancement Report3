@@ -1,0 +1,25 @@
+Enhancement Report 3
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Log in section
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+When user wants to log in, it is written that TheMovieDB credentials should be used. Since TheMovieDB information is not written anywhere else, users may find it unfamiliar and confusing. It could be useful if some detailed information on TheMovieDB registration is provided in case user does not have account there (most likely).
+
+Steps to reproduce:
+1. Click on More button on the bottom of screen.
+2. Click on Log In button.
+Result: Log In window is displayed.
