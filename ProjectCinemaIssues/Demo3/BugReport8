@@ -1,0 +1,26 @@
+Bug Report 7
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Actors page 
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+When the user searches for actor through search bar and opens related page, the information (biography) about actor cannot be fully read, since window expanding is not available.
+
+Steps to reproduce:
+1. Type Matthew McConaughey in search bar on top of the screen.
+2. Click on Matthew McConaughey name in the search results list.
+3. Click on the biography text next to the actors image to expand it.
+Result: Nothing has changed.

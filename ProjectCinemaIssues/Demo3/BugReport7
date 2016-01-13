@@ -1,0 +1,27 @@
+Bug Report 7
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: All Crew Members - Movie information screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+In the Cast section of the movie information screen, user can click on All Crew Members label to show the list of people involved in making the movie. However, if user clicks on one of the names, its list cell will turn grey, but no information about the selected person will be shown. 
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on ‘The Martian’ movie.
+3. Click on All Crew Members in Cast section.
+4. Click on Steve Golin name in the list.
+Result: No information about Steve Golin provided. 

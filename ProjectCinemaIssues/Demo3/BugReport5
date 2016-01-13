@@ -1,0 +1,28 @@
+Bug Report 3
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Rating section
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+When the user gives points for some movie, those points (stars) are not taken into account for the overall rating. The number of ratings stays the same, indicating that no new points are added.
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on the ‘The Revenant’ movie (the number of ratings on movie information screen is 351).
+3. Click on the Your Rating section.
+4. Select rating 9 (five stars) and click on submit.
+5. Go back to the Feed screen and click on ‘The Revenant’ movie.
+Result: In Your Rating section, label ‘9’ is written indicating the points, but the number of ratings in Rating section stays the same (351).

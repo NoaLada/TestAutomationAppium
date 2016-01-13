@@ -1,0 +1,31 @@
+Bug Report 4
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Your Rating section on movie information screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+On the movie information screen, there is a section for rating the selected movie. When user chooses points for the movie and submits them, the initial movie information screen is displayed and in Your Rating section is it written Not Yet Rated. If user goes back to the Feed screen and clicks again on the same movie he just rated, the points submitted will be shown in Your Rating section.
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on the ‘The Martian’ movie.
+3. Click on the Your Rating section.
+4. Select rating 9 (five stars) and click on submit.
+Result: The movie information screen is shown and in Your Rating section is still written Not Yet Rated.
+
+5. Navigate back to the Feed screen.
+6. Click on the ‘The Martian’ movie.
+Result: In Your Rating section, star with number 9 is displayed.

@@ -1,0 +1,33 @@
+Bug Report 3
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Movie information screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+On the movie information screen, there is a section for reviews. When the user taps on the preview to expand it, review is still not fully shown. There is inconsistency in review forms due to the expanding issue. In case A, review is not expanded at all (Escape Plan movie). In case B, review expands until certain point in text, but not same point for all the movies (comparing The Martian and The Revenant).
+
+Steps to reproduce (A):
+1. Type Escape Plan in the search bar on top of the screen.
+2. Click on the ‘Escape Plan’ movie offered in the list.
+3. Click on the review by debweb99 to read it.
+Result: Nothing has changed.
+
+Steps to reproduce (B):
+1. Click on Feed button on the bottom of screen.
+2. Click on the ‘The Revenant’ movie.
+3. Click on the review by rahuliam to read it.
+Result: Review is not fully shown.
+

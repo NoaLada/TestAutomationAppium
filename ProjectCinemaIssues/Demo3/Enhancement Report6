@@ -1,0 +1,24 @@
+Enhancement Report 6
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Rating Upcoming movies
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+Minor
+
+Type:
+Enhancement
+
+Status:
+New
+
+Summary:
+For the movie that is still not released, there is no sense for giving rating in advance. Rating option might be redundant in there.
+
+Steps to reproduce:
+1. Click on ‘Dirty Grandpa’ movie in the Upcoming Movies section of Feed screen.
+Result: Rating is displayed and user is able to rate movie even though it is still not released.

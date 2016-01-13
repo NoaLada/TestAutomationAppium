@@ -1,0 +1,26 @@
+Bug Report 6
+
+Reporter: Azra Musić azra.music.15@gmail.com
+Product: Project Cinema
+Version: -
+Component: Cast section - Movie information screen
+Platform: iPhone 5s 
+Operating system: iOS 9.2
+
+Priority:
+High
+
+Type:
+Bug
+
+Status:
+New
+
+Summary:
+In the Cast section of the movie information screen, if the user clicks on the Director name provided, nothing happens, even though the arrow on the right indicates opposite.
+
+Steps to reproduce:
+1. Click on Feed button on the bottom of screen.
+2. Click on the ‘The Revenant’ movie.
+3. Click on the Director label in Cast section.
+Result: Nothing has changed.
